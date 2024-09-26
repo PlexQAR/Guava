@@ -6,7 +6,7 @@ The repository holds:
 
     Test data
     Simulation scripts
-    Voxel plots
+    Plots
     Visualization tools (e.g., VTK for 3D representations)
     XML Data Files
 
