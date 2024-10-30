@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material depletable="true" id="1" name="fuel" volume="1.1774338663914403">
+    <density units="g/cm3" value="10.0"/>
+    <nuclide ao="0.046007" name="O16"/>
+    <nuclide ao="3.5e-05" name="Sr90"/>
+    <nuclide ao="1.5e-05" name="Zr95"/>
+    <nuclide ao="1.2e-05" name="Ru106"/>
+    <nuclide ao="3e-05" name="I131"/>
+    <nuclide ao="6e-05" name="Cs137"/>
+    <nuclide ao="3e-05" name="Ba137"/>
+    <nuclide ao="0.00037503" name="U235"/>
+    <nuclide ao="0.022625" name="U238"/>
+    <nuclide ao="5e-06" name="Np237"/>
+    <nuclide ao="3e-06" name="Pu239"/>
+    <nuclide ao="2e-06" name="Pu241"/>
+    <nuclide ao="1e-06" name="Am241"/>
+    <nuclide ao="1e-07" name="Cm245"/>
+  </material>
+  <material id="2" name="zircaloy">
+    <density units="g/cm3" value="6.0"/>
+    <nuclide ao="0.5145" name="Zr90"/>
+    <nuclide ao="0.1122" name="Zr91"/>
+    <nuclide ao="0.1715" name="Zr92"/>
+    <nuclide ao="0.1738" name="Zr94"/>
+    <nuclide ao="0.028" name="Zr96"/>
+  </material>
+  <material id="4" name="heavy-light water mixture">
+    <density units="g/cm3" value="1.11"/>
+    <nuclide ao="1.0" name="H1"/>
+    <nuclide ao="2.0" name="H2"/>
+    <sab name="c_D_in_D2O"/>
+  </material>
+</materials>
