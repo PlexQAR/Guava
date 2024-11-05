@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
-  <material depletable="true" id="1" name="Mixed Transmutation Fuel" volume="10902.72348624504">
+  <material depletable="true" id="6" name="Mixed Transmutation Fuel" volume="10902.72348624504">
     <density units="sum"/>
     <nuclide ao="1.9952412" name="O16"/>
     <nuclide ao="0.000758" name="O17"/>
@@ -12,11 +12,11 @@
     <nuclide ao="5.565808697765922e-05" name="U236"/>
     <nuclide ao="0.7876845868393033" name="U238"/>
   </material>
-  <material id="2" name="Zircaloy">
+  <material id="7" name="Zircaloy">
     <density units="g/cm3" value="6.55"/>
     <nuclide ao="0.0072758" name="Zr90"/>
   </material>
-  <material id="3" name="Stainless Steel">
+  <material id="8" name="Stainless Steel">
     <density units="g/cm3" value="8.0"/>
     <nuclide name="C12" wo="0.07904054760685493"/>
     <nuclide name="C13" wo="0.000959452393145078"/>
@@ -43,12 +43,12 @@
     <nuclide name="Ni62" wo="0.42183045338358865"/>
     <nuclide name="Ni64" wo="0.11089654569363369"/>
   </material>
-  <material id="4" name="Helium">
+  <material id="9" name="Helium">
     <density units="g/cm3" value="0.001786"/>
     <nuclide ao="5.373399999999999e-10" name="He3"/>
     <nuclide ao="0.00026866946266" name="He4"/>
   </material>
-  <material id="5" name="Graphite">
+  <material id="10" name="Graphite">
     <density units="g/cm3" value="1.8"/>
     <nuclide ao="0.988922" name="C12"/>
     <nuclide ao="0.011078" name="C13"/>
