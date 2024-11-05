@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <materials>
-  <material depletable="true" id="5" name="UO2" volume="10902.72348624504">
+  <material depletable="true" id="1" name="UO2" volume="500000">
     <density units="g/cc" value="10.0"/>
     <nuclide ao="1.9952412" name="O16"/>
     <nuclide ao="0.000758" name="O17"/>
@@ -10,11 +10,11 @@
     <nuclide ao="6.957260872207403e-05" name="U236"/>
     <nuclide ao="0.9846057335491291" name="U238"/>
   </material>
-  <material id="6" name="Zircaloy">
+  <material id="2" name="Zircaloy">
     <density units="g/cm3" value="6.55"/>
     <nuclide ao="0.0072758" name="Zr90"/>
   </material>
-  <material id="7" name="Stainless Steel">
+  <material id="3" name="Stainless Steel">
     <density units="g/cm3" value="8.0"/>
     <nuclide name="C12" wo="0.07904054760685493"/>
     <nuclide name="C13" wo="0.000959452393145078"/>
@@ -41,7 +41,7 @@
     <nuclide name="Ni62" wo="0.42183045338358865"/>
     <nuclide name="Ni64" wo="0.11089654569363369"/>
   </material>
-  <material id="8" name="Water">
+  <material id="4" name="Water">
     <density units="g/cm3" value="0.76"/>
     <nuclide ao="1.99968852" name="H1"/>
     <nuclide ao="0.00031148" name="H2"/>
