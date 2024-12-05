@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="246" material="21" name="fuel" region="-277" universe="41"/>
+  <cell id="247" material="void" name="air gap" region="277 -278" universe="41"/>
+  <cell id="248" material="22" name="clad" region="278 -279" universe="41"/>
+  <cell id="249" material="24" name="fwater" region="273 -274 275 -276 279" universe="41"/>
+  <cell id="250" material="24" name="wwater_inner" region="-280" universe="42"/>
+  <cell id="251" material="22" name="wclad" region="-281 280" universe="42"/>
+  <cell id="252" material="24" name="wwater_outer" region="273 -274 275 -276 281" universe="42"/>
+  <cell id="256" material="21" name="ur fuel" region="-285" universe="43"/>
+  <cell id="257" material="void" name="ul air gap" region="-286 285" universe="43"/>
+  <cell id="258" material="22" name="ul clad" region="286 -287" universe="43"/>
+  <cell id="259" material="22" name="ur sleave cell" region="-289 288 290 291 273 -274 275 -276" universe="43"/>
+  <cell id="260" material="24" name="ur sleave water" region="273 -274 275 -276 290 291 289" universe="43"/>
+  <cell id="261" material="24" name="ur vertically-equivalent sleave water" region="273 -274 275 -276 -290 291 288" universe="43"/>
+  <cell id="262" material="24" name="ur opposite water" region="273 -274 275 -276 -290 -291 288" universe="43"/>
+  <cell id="263" material="24" name="ur horizontally-equivalent sleave water" region="273 -274 275 -276 290 -291 288" universe="43"/>
+  <cell id="264" material="24" name="ur inner water cell" region="273 -274 275 -276 -288 287" universe="43"/>
+  <cell id="265" material="21" name="ul fuel" region="-292" universe="44"/>
+  <cell id="266" material="void" name="ul air gap" region="-293 292" universe="44"/>
+  <cell id="267" material="22" name="ul clad" region="293 -294" universe="44"/>
+  <cell id="268" material="22" name="ul sleave cell" region="-296 295 -297 298 273 -274 275 -276" universe="44"/>
+  <cell id="269" material="24" name="ul sleave water" region="273 -274 275 -276 -297 298 296" universe="44"/>
+  <cell id="270" material="24" name="ul vertically-equivalent sleave water" region="273 -274 275 -276 297 298 295" universe="44"/>
+  <cell id="271" material="24" name="ul opposite water" region="273 -274 275 -276 297 -298 295" universe="44"/>
+  <cell id="272" material="24" name="ul horizontally-equivalent sleave water" region="273 -274 275 -276 -297 -298 295" universe="44"/>
+  <cell id="273" material="24" name="ul inner water cell" region="273 -274 275 -276 -295 294" universe="44"/>
+  <cell id="274" material="21" name="ll fuel" region="-299" universe="45"/>
+  <cell id="275" material="void" name="ll air gap" region="-300 299" universe="45"/>
+  <cell id="276" material="22" name="ll clad" region="300 -301" universe="45"/>
+  <cell id="277" material="22" name="ul sleave cell" region="-303 302 -304 -305 273 -274 275 -276" universe="45"/>
+  <cell id="278" material="24" name="ul sleave water" region="273 -274 275 -276 -304 -305 303" universe="45"/>
+  <cell id="279" material="24" name="ul vertically-equivalent sleave water" region="273 -274 275 -276 304 -305 302" universe="45"/>
+  <cell id="280" material="24" name="ul opposite water" region="273 -274 275 -276 304 305 302" universe="45"/>
+  <cell id="281" material="24" name="ul horizontally-equivalent sleave water" region="273 -274 275 -276 -304 305 302" universe="45"/>
+  <cell id="282" material="24" name="ul inner water cell" region="273 -274 275 -276 -302 301" universe="45"/>
+  <cell id="283" material="21" name="lr fuel" region="-306" universe="46"/>
+  <cell id="284" material="void" name="lr air gap" region="-307 306" universe="46"/>
+  <cell id="285" material="22" name="lr clad" region="307 -308" universe="46"/>
+  <cell id="286" material="22" name="ur sleave cell" region="-310 309 311 -312 273 -274 275 -276" universe="46"/>
+  <cell id="287" material="24" name="ur sleave water" region="273 -274 275 -276 311 -312 310" universe="46"/>
+  <cell id="288" material="24" name="ur vertically-equivalent sleave water" region="273 -274 275 -276 -311 -312 309" universe="46"/>
+  <cell id="289" material="24" name="ur opposite water" region="273 -274 275 -276 -311 312 309" universe="46"/>
+  <cell id="290" material="24" name="ur horizontally-equivalent sleave water" region="273 -274 275 -276 311 312 309" universe="46"/>
+  <cell id="291" material="24" name="ur inner water cell" region="273 -274 275 -276 -309 308" universe="46"/>
+  <cell fill="47" id="292" name="quarter assembly cell" region="313 -314 315 -316" universe="48"/>
+  <cell id="293" material="22" name="quarter assembly sleave" region="317 -318 319 -320 ~(313 -314 315 -316)" universe="48"/>
+  <cell id="294" material="24" name="assembly outer water" region="321 -322 323 -324 ~(317 -318 319 -320 ~(313 -314 315 -316)) ~(313 -314 315 -316)" universe="48"/>
+  <lattice id="47" name="Quarter Assembly">
+    <pitch>1.6256 1.6256</pitch>
+    <dimension>8 8</dimension>
+    <lower_left>-6.5024 -6.5024</lower_left>
+    <universes>
+44 41 41 41 41 41 41 43 
+41 41 41 41 41 41 41 41 
+41 41 41 41 41 41 41 41 
+41 41 41 42 41 41 41 41 
+41 41 41 41 42 41 41 41 
+41 41 41 41 41 41 41 41 
+41 41 41 41 41 41 41 41 
+45 41 41 41 41 41 41 46 </universes>
+  </lattice>
+  <surface coeffs="-0.8128" id="273" type="x-plane"/>
+  <surface coeffs="0.8128" id="274" type="x-plane"/>
+  <surface coeffs="-0.8128" id="275" type="y-plane"/>
+  <surface coeffs="0.8128" id="276" type="y-plane"/>
+  <surface coeffs="0.0 0.0 0.5207" id="277" name="Fuel OR" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.53213" id="278" name="Clad IR" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.61341" id="279" name="Clad OR" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.67437" id="280" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.75057" id="281" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.5207" id="285" name="ur Corner Cell: Fuel OR" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.53213" id="286" name="ur Corner Cell: Clad IR" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.61341" id="287" name="ur Corner Cell: Clad OR" type="z-cylinder"/>
+  <surface coeffs="-0.15240002000000002 -0.15240000000000004 0.96520001" id="288" type="z-cylinder"/>
+  <surface coeffs="-0.15240002000000002 -0.15240000000000004 1.16840001" id="289" type="z-cylinder"/>
+  <surface coeffs="-0.15240002000000002" id="290" type="x-plane"/>
+  <surface coeffs="-0.15240000000000004" id="291" type="y-plane"/>
+  <surface coeffs="0.0 0.0 0.5207" id="292" name="ul Corner Cell: Fuel OR" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.53213" id="293" name="ul Corner Cell: Clad IR" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.61341" id="294" name="ul Corner Cell: Clad OR" type="z-cylinder"/>
+  <surface coeffs="0.15240002000000002 -0.15240000000000004 0.96520001" id="295" type="z-cylinder"/>
+  <surface coeffs="0.15240002000000002 -0.15240000000000004 1.16840001" id="296" type="z-cylinder"/>
+  <surface coeffs="0.15240002000000002" id="297" type="x-plane"/>
+  <surface coeffs="-0.15240000000000004" id="298" type="y-plane"/>
+  <surface coeffs="0.0 0.0 0.5207" id="299" name="ll Corner Cell: Fuel OR" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.53213" id="300" name="ll Corner Cell: Clad IR" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.61341" id="301" name="ll Corner Cell: Clad OR" type="z-cylinder"/>
+  <surface coeffs="0.15240002000000002 0.15240000000000004 0.96520001" id="302" type="z-cylinder"/>
+  <surface coeffs="0.15240002000000002 0.15240000000000004 1.16840001" id="303" type="z-cylinder"/>
+  <surface coeffs="0.15240002000000002" id="304" type="x-plane"/>
+  <surface coeffs="0.15240000000000004" id="305" type="y-plane"/>
+  <surface coeffs="0.0 0.0 0.5207" id="306" name="lr Corner Cell: Fuel OR" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.53213" id="307" name="lr Corner Cell: Clad IR" type="z-cylinder"/>
+  <surface coeffs="0.0 0.0 0.61341" id="308" name="lr Corner Cell: Clad OR" type="z-cylinder"/>
+  <surface coeffs="-0.15240002000000002 0.15240000000000004 0.96520001" id="309" type="z-cylinder"/>
+  <surface coeffs="-0.15240002000000002 0.15240000000000004 1.16840001" id="310" type="z-cylinder"/>
+  <surface coeffs="-0.15240002000000002" id="311" type="x-plane"/>
+  <surface coeffs="0.15240000000000004" id="312" type="y-plane"/>
+  <surface coeffs="-6.5024" id="313" type="x-plane"/>
+  <surface coeffs="6.5024" id="314" type="x-plane"/>
+  <surface coeffs="-6.5024" id="315" type="y-plane"/>
+  <surface coeffs="6.5024" id="316" type="y-plane"/>
+  <surface coeffs="-6.7056" id="317" type="x-plane"/>
+  <surface coeffs="6.7056" id="318" type="x-plane"/>
+  <surface coeffs="-6.7056" id="319" type="y-plane"/>
+  <surface coeffs="6.7056" id="320" type="y-plane"/>
+  <surface boundary="reflective" coeffs="-7.2056" id="321" type="x-plane"/>
+  <surface boundary="reflective" coeffs="7.2056" id="322" type="x-plane"/>
+  <surface boundary="reflective" coeffs="-7.2056" id="323" type="y-plane"/>
+  <surface boundary="reflective" coeffs="7.2056" id="324" type="y-plane"/>
+</geometry>
